@@ -1,6 +1,6 @@
 <div id="top"></div>
 
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/caio-abra-61306212a/]
+[![LinkedIn][linkedin-shield]][/caio-abra-61306212a/]
 
 
 
