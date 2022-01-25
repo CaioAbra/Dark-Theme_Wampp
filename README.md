@@ -1,6 +1,5 @@
 <div id="top"></div>
 
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -100,8 +99,9 @@ Don't forget to give the project a star! Thanks again!
 
 <!-- CONTACT -->
 ## Contact
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-Caio Matheus dos Santos abra - caioabra41@gmail.com - 11 9 98479359
+Caio Matheus dos Santos abra - caioabra41@gmail.com 
 
 Project Link: [https://github.com/CaioAbra/Dark-Theme_Wampp](https://github.com/CaioAbra/Dark-Theme_Wampp)
 
