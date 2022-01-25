@@ -65,14 +65,9 @@ _How to install and configure the theme._
    ```sh
     www\wampthemes
    ```
-3. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+   located inside your wampserver
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- USAGE EXAMPLES -->
 
