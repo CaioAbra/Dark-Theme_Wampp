@@ -1,4 +1,11 @@
-# Dark-Theme_Wampp
-Tema escuro para o wampp server.
-
-*copie a pasta para dentro do arquivo wampthemes, dentro de www, e atualize seu localhost para tornar o tema valido.*
+<h1>Dark-Theme_Wampp</h1>
+> status: In improvements
+<h3>Built With</h3>
+<ul>
+  <li>CSS</li>
+</ul>
+<h3>Getting Started</h3>
+<ol>
+  <li>Start wampp server normally</li>
+  <li>Download a copy of the repository into the folder <b>wampthemes</b>, which is located within <b>www</b></li>
+</ol>
