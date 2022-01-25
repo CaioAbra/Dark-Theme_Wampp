@@ -31,8 +31,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 There are many excellent Theme templates available; however, I didn't find one that really did what I wanted, so I created this one with what I was looking for. I want to create a wampp theme so awesome that it's the last one you'll ever need -- I think that's it.
 
 Here's why:
@@ -46,16 +44,7 @@ Of course, the theme will not suit or please everyone, since everyone has a tast
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [CSS]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
