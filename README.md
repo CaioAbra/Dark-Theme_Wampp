@@ -101,7 +101,7 @@ Don't forget to give the project a star! Thanks again!
 ## Contact
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-Caio Matheus dos Santos abra - caioabra41@gmail.com 
+Caio Matheus dos Santos Abra - caioabra41@gmail.com 
 
 Project Link: [https://github.com/CaioAbra/Dark-Theme_Wampp](https://github.com/CaioAbra/Dark-Theme_Wampp)
 
