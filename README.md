@@ -52,25 +52,20 @@ Of course, the theme will not suit or please everyone, since everyone has a tast
 
 <!-- GETTING STARTED -->
 ## Getting Started
-
 ### Prerequisites
-
 Have Wampserver installed on the machine!
-
 ### Installation
+_How to install and configure the theme._
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/CaioAbra/Dark-Theme_Wampp
    ```
-3. Install NPM packages
+2. Copy folder into file
    ```sh
-   npm install
+    www\wampthemes
    ```
-4. Enter your API in `config.js`
+3. Enter your API in `config.js`
    ```js
    const API_KEY = 'ENTER YOUR API';
    ```
@@ -80,8 +75,8 @@ _Below is an example of how you can instruct your audience on installing and set
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
 
+## Usage
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
@@ -90,6 +85,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 
 <!-- CONTRIBUTING -->
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
