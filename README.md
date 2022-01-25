@@ -44,7 +44,7 @@ Of course, the theme will not suit or please everyone, since everyone has a tast
 
 ### Built With
 
-* [CSS]
+* CSS
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
