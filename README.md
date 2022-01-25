@@ -74,7 +74,9 @@ _How to install and configure the theme._
 ## Pre Viwe
 _A dose of what will be seen_
 
-<img src="">
+<img src="https://github.com/CaioAbra/Dark-Theme_Wampp/blob/main/img/first.png">
+<img src="https://github.com/CaioAbra/Dark-Theme_Wampp/blob/main/img/second.png">
+<img src="https://github.com/CaioAbra/Dark-Theme_Wampp/blob/main/img/third.png">
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
