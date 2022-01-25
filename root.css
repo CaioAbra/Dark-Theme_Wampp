@@ -1,0 +1,48 @@
+:root {
+    --var-void   : #0E0B16;
+    --var-fuschia: #A239CA;
+    --var-jewel  : #4717F6;
+    --var-stark  : #E7DFDD;
+}
+
+@font-face {
+    font-family: 'Maven_Pro_Regular';
+    src        : url('fonts/Maven_Pro/static/MavenPro-Regular.ttf');
+    font-weight: 400;
+    font-style : normal;
+}
+
+@font-face {
+    font-family: 'Maven_Pro_Medium';
+    src        : url('fonts/Maven_Pro/static/MavenPro-Medium.ttf');
+    font-weight: 500;
+    font-style : normal;
+}
+
+@font-face {
+    font-family: 'Maven_Pro_SemiBold';
+    src        : url('fonts/Maven_Pro/static/MavenPro-SemiBold.ttf');
+    font-weight: 600;
+    font-style : normal;
+}
+
+@font-face {
+    font-family: 'Maven_Pro_Bold';
+    src        : url('fonts/Maven_Pro/static/MavenPro-Bold.ttf');
+    font-weight: 700;
+    font-style : normal;
+}
+
+@font-face {
+    font-family: 'Maven_Pro_ExtraBold';
+    src        : url('fonts/Maven_Pro/static/MavenPro-ExtraBold.ttf');
+    font-weight: 800;
+    font-style : normal;
+}
+
+@font-face {
+    font-family: 'Maven_Pro_Black';
+    src        : url('fonts/Maven_Pro/static/MavenPro-Black.ttf');
+    font-weight: 900;
+    font-style : normal;
+}

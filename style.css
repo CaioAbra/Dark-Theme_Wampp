@@ -1,0 +1,327 @@
+@import url(root.css);
+
+body {
+	background : var(--var-void);
+	line-height: 1;
+	font-family: Maven_Pro_Regular;
+	font-size  : 1rem;
+	margin     : 0;
+	max-width  : 100vw;
+	min-width  : 100%;
+	min-height : 100vh;
+	color      : var(--var-stark);
+}
+
+#head {
+	height        : 17vh;
+	width         : 100%;
+	color         : #FFF;
+	position      : relative;
+	border-bottom : solid 0.3rem var(--var-fuschia);
+	padding-bottom: 3rem;
+	color         : var(--var-fuschia);
+}
+
+.innerhead {
+	width     : 100%;
+	height    : 100%;
+	max-width : 60rem;
+	margin    : 0 auto;
+	background: url('img/logo.png') no-repeat left center;
+}
+
+.innerhead h1,
+.innerhead ul {
+	display: none;
+}
+
+.utility {
+	display      : inline-flex;
+	align-content: center;
+	align-items  : center;
+	float        : right;
+}
+
+.utility li {
+	margin-right: 1.2rem;
+	padding     : 0;
+	display     : inline;
+	font-size   : 1.2rem;
+}
+
+.utility select:first-child {
+	margin-right: 1rem;
+}
+
+.utility select {
+	padding       : 0.2rem 1rem;
+	border-radius : 1rem;
+	background    : transparent;
+	font-size     : 0.8rem;
+	color         : var(--var-fuschia);
+	border        : solid .0625rem var(--var-fuschia);
+	text-transform: capitalize;
+}
+
+.utility select option {
+	background-color: var(--var-void);
+	color           : var(--var-fuschia);
+	border          : solid .125rem var(--var-fuschia);
+}
+
+.utility a {
+	color          : #ffc002;
+	text-decoration: none;
+	cursor         : pointer;
+}
+
+
+.config a {
+	color          : var(--var-jewel);
+	text-decoration: none;
+	transition     : all 0.6s;
+}
+
+.config a:hover {
+	color: var(--var-fuschia);
+}
+
+.alltools {
+	margin-top: 4rem;
+	border-top: solid 0.3rem var(--var-fuschia);
+}
+
+.alltools a:link,
+.alltools a:visited,
+#foot a:link,
+#foot a:visited {
+	color          : var(--var-stark);
+	text-decoration: none;
+	cursor         : pointer;
+}
+
+.alltools a:hover,
+#foot a:hover {
+	border-bottom: #FFF solid 1px;
+}
+
+.innerconfig,
+.inneralltools {
+	width : 90vw;
+	margin: auto;
+}
+
+h2 {
+	font-family: Maven_Pro_Bold;
+}
+
+ul {
+	list-style: none;
+	margin    : 0;
+	padding   : 0;
+}
+
+
+dl ul li,
+#foot li {
+	list-style: none;
+	display   : inline;
+	margin    : 0;
+	padding   : 0 0.4em;
+}
+
+
+ul.aliases a,
+ul.projects a,
+ul.tools a,
+ul.vhost a {
+	padding-left: 22px;
+	background  : url('img/pngFolder.png') 0 100% no-repeat;
+}
+
+ul.tools a {
+	background: url('img/pngWrench.png') 0 100% no-repeat;
+}
+
+ul.aliases a,
+ul.vhost a {
+	background: url('img/pngFolderGo.png') 0 100% no-repeat;
+}
+
+ul.phpext {
+	margin-top: 0;
+}
+
+li.projectsdir {
+	margin-top : 1.3rem;
+	font-size  : .9rem;
+	line-height: 0.9;
+	color      : var(--var-fuschia);
+}
+
+dl {
+	margin : 0;
+	padding: 0;
+}
+
+dt {
+	border-bottom: solid 0.15rem var(--var-fuschia);
+	border-left  : solid 0.15rem var(--var-fuschia);
+	padding      : 0 0 0.5rem 1rem;
+	font-size    : 1.2rem !important;
+	font-family  : Maven_Pro_Bold;
+	margin-top   : 2rem;
+}
+
+dd {
+	margin  : 0 0 0 3.125rem;
+	padding : .875rem 0.5%;
+	overflow: auto;
+}
+
+dd ul li {
+	float      : left;
+	display    : block;
+	width      : 16.5%;
+	min-width  : 8.75rem;
+	margin     : 0;
+	padding    : 0 0 0 20px;
+	background : url('img/pngPlugin.png') 2px 50% no-repeat;
+	line-height: 1.6;
+}
+
+dd.ddphpext {
+	margin-left: 1.5em;
+}
+
+.divider1 {
+	display: none;
+}
+
+.divider2 {
+	display: none;
+}
+
+.column {
+	width         : calc(100% / 4);
+	display       : table-cell;
+	vertical-align: top;
+	padding-left  : 1rem;
+	padding-right : 1rem;
+	min-height    : 40vh;
+	height        : 17rem;
+}
+
+.column:nth-child(1) {
+	border-left: solid 0.2rem var(--var-fuschia);
+}
+
+.column:nth-child(2) {
+	border-left: solid 0.2rem var(--var-fuschia);
+}
+
+.column:nth-child(3) {
+	border-left: solid 0.2rem var(--var-fuschia);
+}
+
+.column:nth-child(4) {
+	border-left : solid 0.2rem var(--var-fuschia);
+	border-right: solid 0.2rem var(--var-fuschia);
+}
+
+.column h2 {
+	text-align: center;
+}
+
+.column ul {
+	line-height: 1.6rem;
+	list-style : none;
+}
+
+.column ul.aliases,
+.column ul.tools,
+.column ul.vhost {
+	text-transform: capitalize;
+}
+
+#foot {
+	display: none;
+}
+
+pre {
+	white-space: pre-wrap;
+	overflow-x : auto;
+	font-size  : 1.3em;
+}
+
+/******         Pop-up box when hovering over a link        ******/
+a.popup {
+	font-style     : none;
+	color          : #999;
+	text-decoration: none;
+	font-size      : 0.8em;
+}
+
+a:active.popup {
+	border-bottom: 0px;
+}
+
+/* Essential for IE          */
+a:hover.popup,
+a:focus.popup {
+	border-bottom  : 0px;
+	/* Essential for IE          */
+	cursor         : help;
+	text-decoration: none;
+}
+
+a.popup span {
+	display: none;
+}
+
+/* Invisible text between SPAN tags */
+a:hover.popup span,
+a:focus.popup span {
+	display              : block;
+	position             : absolute;
+	width                : 95%;
+	height               : auto;
+	top                  : auto;
+	left                 : 10px;
+	overflow             : visible;
+	border               : 2px solid #ff0099;
+	border-radius        : 8px 8px 8px 8px;
+	-moz-border-radius   : 8px 8px 8px 8px;
+	-webkit-border-radius: 8px 8px 8px 8px;
+	background-color     : #ffddff;
+	white-space          : pre-wrap;
+	overflow-x           : auto;
+	font-family          : Consolas, Lucida Console, Courier New, monospace;
+	line-height          : 110%;
+	font-size            : 1.6em !important;
+	color                : black;
+	padding              : 0.5em;
+	margin-top           : 1.5em;
+	text-align           : center;
+	font-weight          : 500;
+	font-style           : normal;
+	text-decoration      : none;
+	z-index              : 100;
+}
+
+/*------------------------------------------------------------------*/
+
+@media screen and (max-width: 750px) {
+
+	dt {
+		text-align: left;
+		width     : 100%;
+		float     : none;
+		margin    : 2% 0 0 0;
+	}
+
+	dd {
+		margin : 0;
+		padding: 0.5% 1.5% 1% 1.5%;
+	}
+}
